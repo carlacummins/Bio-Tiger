@@ -7,7 +7,7 @@ use Data::Dumper;
 BEGIN { unshift( @INC, './lib' ) }
 BEGIN {
     use Test::Most;
-    no warnings 'experimental::smartmatch';
+    #no warnings 'experimental::smartmatch';
 }
 
 my (@site_list, @exp_pats, @unknowns, $pats);
